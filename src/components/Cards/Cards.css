@@ -1,0 +1,25 @@
+.Cards{
+    transition: all 400ms ease;
+
+    display: flex;
+    gap: 10px;
+}
+.parentCard{
+    width: 100%;
+    transition: all 400ms ease;
+}
+@media screen and (max-width:1200px){
+    .Cards{
+        flex-direction: column;
+    }
+    .parentCard{
+        height: 9rem;
+    }
+ }
+ @media screen and (max-width:768px){
+  .Cards{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+ }

@@ -1,0 +1,23 @@
+.update img {
+  width: 4.9rem;
+  height: 3.2rem;
+  cursor: pointer;
+}
+.updates {
+  width: 85%;
+  background-color: white;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.update{
+    display: flex;
+    gap: 0.5rem;
+}
+.noti>div>span:nth-of-type(1){
+    font-weight: bold;
+}

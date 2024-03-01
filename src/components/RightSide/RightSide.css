@@ -1,0 +1,12 @@
+.RightSide{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+} 
+@media screen and (max-width:1200px){
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+ }
